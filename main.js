@@ -16,9 +16,9 @@ cnv.onmousedown = function(event){
 		ctx.stroke();
 	}
 
-
+	
 	document.onmouseup = function(){
 		document.onmousemove = null;
 	}
 
-}
+};
